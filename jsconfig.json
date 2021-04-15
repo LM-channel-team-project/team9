@@ -1,0 +1,7 @@
+{
+    // import 하기 위함
+    "compilerOptions": {
+        "baseUrl": "src"
+    },
+    "include": ["src"]
+}
