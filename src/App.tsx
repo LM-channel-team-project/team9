@@ -1,5 +1,11 @@
+import TodoItem from "./components/TodoItem";
+
 const App = () => {
-  return <div>test</div>;
+  return (
+    <div>
+      <TodoItem />
+    </div>
+  );
 };
 
 export default App;
