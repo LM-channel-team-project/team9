@@ -12,7 +12,7 @@ export const Todo = styled.li`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
-  width: 500px;
+  width: 100%;
 `;
 
 export const TodoContent = styled.div`

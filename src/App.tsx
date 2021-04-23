@@ -1,9 +1,19 @@
-import TodoItem from "./components/TodoItem";
+import styled from "styled-components";
+import TodoList from "./components/TodoContainer/TodoList";
+import Calendar from "./components/CalendarContainer/Calendar";
+
+const CalendarTodo = styled.div`
+  display: flex;
+  width: 100%;
+`;
 
 const App = () => {
   return (
-    <div>
-      <TodoItem />
+    <div className="App">
+      <CalendarTodo>
+        <Calendar />
+        <TodoList />
+      </CalendarTodo>
     </div>
   );
 };
